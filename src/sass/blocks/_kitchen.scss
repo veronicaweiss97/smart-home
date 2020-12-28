@@ -1,7 +1,12 @@
 .kitchen {
-    width: 100%;
+    display: none;
+    width: 93%;
     .container {
-        height: 100%;
+        width: 100%;
+        background-color: white;
+        margin-left: -40px;
+        border: 2px solid white;
+        border-radius: 55px 0 0 55px;
     }
     &__content {
         display: flex;

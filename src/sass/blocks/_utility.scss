@@ -1,6 +1,13 @@
 .utility {
-    width: 100%;
+    width: 93%;
     display: none;
+    .container {
+        width: 100%;
+        background-color: white;
+        margin-left: -40px;
+        border: 2px solid white;
+        border-radius: 55px 0 0 55px;
+    }
     &__items {
         display: flex;
         flex-wrap: wrap;

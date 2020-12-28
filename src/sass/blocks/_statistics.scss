@@ -1,6 +1,13 @@
 .statistics {
     display: none;
     width: 93%;
+    .container {
+        width: 100%;
+        background-color: white;
+        margin-left: -40px;
+        border: 2px solid white;
+        border-radius: 55px 0 0 55px;
+    }
     &__title {
         padding-left: 180px;
         font-size: 48px;
