@@ -1,0 +1,19 @@
+@import 'variables';
+
+
+body {
+    margin: 0;
+}
+.main {
+    &__container {
+        width: 100%;
+        display: flex;
+        
+    }
+}
+@import 'blocks/_header';
+@import 'blocks/members';
+@import 'blocks/statistics';
+@import 'blocks/subheader';
+@import 'blocks/utility';
+@import 'blocks/kitchen';

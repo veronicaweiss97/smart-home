@@ -1,0 +1,312 @@
+.kitchen {
+    width: 100%;
+    .container {
+        height: 100%;
+    }
+    &__content {
+        display: flex;
+        width: 90%;
+        &-items {
+            padding-left: 180px;
+            width:53%;
+            &-first {
+                display: flex;
+                justify-content: space-between;
+                &-box {
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding: 13px;
+                    border: 1px solid transparent;
+                    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.14);
+                    border-radius: 30px;
+                    width: 219px;
+                    height: 204px;
+                    .boxheader {
+                        font-size: 15px;
+                        line-height: 18px;
+                        letter-spacing: 0.09em;
+                        color: rgba(29, 35, 67, 0.63);
+                    }
+                    .boxtemperature {
+                        font-size: 25px;
+                        line-height: 43px;
+                        letter-spacing: 0.03em;
+                        color: rgba(29, 35, 67, 0.75);
+                    }
+                    .boxscale {
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 35px;
+                        width: 76px;
+                        height: 176px;
+                        box-shadow: 0px -6px 60px rgba(29, 35, 67, 0.14);
+                        border-radius: 25px;
+                        margin-top: 11px;
+                        &__up {
+                            &-first {
+                                height: 86px;
+                                width: 76px;
+                                background-color: #FFE6E6;
+                                border-radius: 25px 25px 0 0;
+                            }
+                            &-second {
+                                height: 104px;
+                                width: 76px;
+                                background-color: rgba(202, 238, 239, 0.51);
+                                border-radius: 25px 25px 0 0;
+                            }
+                            &-third {
+                                height: 41px;
+                                width: 76px;
+                                background: rgba(197, 202, 227, 0.71);
+                                border-radius: 25px 25px 0 0;
+                            }
+                        }
+                        &__down {
+                            &-first {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                height: 86px;
+                                width: 76px;
+                                background-color: $second-color;
+                                border-radius: 0 0 25px 25px;
+                            }
+                            &-second {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                height: 72px;
+                                width: 76px;
+                                background-color: $main-color;
+                                border-radius: 0 0 25px 25px;
+                            }
+                            &-third {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                height: 135px;
+                                width: 76px;
+                                background-color: $third-color;
+                                border-radius: 0 0 25px 25px;
+                            }
+                        }
+                    }
+                }
+            }
+            &-devices {
+                &__subtitle {
+                    font-size: 24px;
+                    line-height: 29px;
+                    letter-spacing: 0.09em;
+                    color: rgba(29, 35, 67, 0.75);
+                    margin-top: 80px;
+                }
+                .kitchendevices {
+                    display: flex;
+                    flex-wrap: wrap;
+                    
+                    
+                    .devicesimg {
+                        height: 40px;
+                        width: 35px;
+                    }
+                    .fridge2 {
+                        width: 163px;
+                        height: 131px;
+                        background: #EE777F;
+                        border-radius: 20px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        margin-right: 70px;
+                        margin-top: 30px;
+                        .icondescr {
+                            width: 100%;
+                            font-size: 19px;
+                            line-height: 23px;
+                            text-align: center;
+                            letter-spacing: 0.09em;
+                            color: #FFF5F5;
+                        }
+                    }
+                    .kettle2 {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        width: 163px;
+                        height: 131px;
+                        background: $main-color;
+                        border-radius: 20px;
+                        margin-right: 70px;
+                        margin-top: 30px;
+                        .icondescr {
+                            width: 100%;
+                            font-size: 19px;
+                            line-height: 23px;
+                            text-align: center;
+                            letter-spacing: 0.09em;
+                            color: #FFF5F5;
+                        }
+                    }
+                    .stove2 {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        width: 163px;
+                        height: 131px;
+                        background: $third-color;
+                        border-radius: 20px;
+                        margin-right: 70px;
+                        margin-top: 30px;
+                        .icondescr {
+                            width: 100%;
+                            font-size: 19px;
+                            line-height: 23px;
+                            text-align: center;
+                            letter-spacing: 0.09em;
+                            color: #FFF5F5;
+                        }
+                    }
+                    .dishwasher2 {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        width: 163px;
+                        height: 131px;
+                        background: #EE777F;
+                        border-radius: 20px;
+                        margin-right: 70px;
+                        margin-top: 30px;
+                        .icondescr {
+                            width: 100%;
+                            font-size: 19px;
+                            line-height: 23px;
+                            text-align: center;
+                            letter-spacing: 0.09em;
+                            color: #FFF5F5;
+                        }
+                    }
+                    .multicooker2 {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        width: 163px;
+                        height: 131px;
+                        background: $main-color;
+                        border-radius: 20px;
+                        margin-right: 70px;
+                        margin-top: 30px;
+                        .icondescr {
+                            width: 100%;
+                            font-size: 19px;
+                            line-height: 23px;
+                            text-align: center;
+                            letter-spacing: 0.09em;
+                            color: #FFF5F5;
+                        }
+                    }
+                    .tv2 {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        width: 163px;
+                        height: 131px;
+                        background: $third-color;
+                        border-radius: 20px;
+                        margin-right: 70px;
+                        margin-top: 30px;
+                        .icondescr {
+                            width: 100%;
+                            font-size: 19px;
+                            line-height: 23px;
+                            text-align: center;
+                            letter-spacing: 0.09em;
+                            color: #FFF5F5;
+                        }
+                    }
+                    .microwave2 {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        width: 163px;
+                        height: 131px;
+                        background: #ee777f;
+                        border-radius: 20px;
+                        margin-right: 70px;
+                        margin-top: 30px;
+                        .icondescr {
+                            width: 100%;
+                            font-size: 19px;
+                            line-height: 23px;
+                            text-align: center;
+                            letter-spacing: 0.09em;
+                            color: #FFF5F5;
+                        }
+                    }
+                    .grill2 {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        width: 163px;
+                        height: 131px;
+                        background: $main-color;
+                        border-radius: 20px;
+                        margin-right: 70px;
+                        margin-top: 30px;
+                        .icondescr {
+                            width: 100%;
+                            font-size: 19px;
+                            line-height: 23px;
+                            text-align: center;
+                            letter-spacing: 0.09em;
+                            color: #FFF5F5;
+                        }
+                    }
+                }
+
+            }
+        }
+        &-side {
+            width: 30%;
+            margin-left: 122px;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 1328px;
+            top: 100px;
+            &-item {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                border: 1px solid transparent;
+                box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.14);
+                border-radius: 30px;
+                width: 219px;
+                height: 204px;
+                margin-bottom: 29px;
+                text-align: center;
+                .photo__descr {
+                    width: 100%;
+                    font-size: 19px;
+                    line-height: 23px;
+                    text-align: center;
+                    letter-spacing: 0.09em;
+                    color: #A3A3A3;
+                }
+                .photo {
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}

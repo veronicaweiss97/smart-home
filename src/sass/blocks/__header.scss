@@ -1,0 +1,44 @@
+header {
+    width: 9%;
+    background: $main-color;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  &__logo {
+      width: 100%;
+      text-align: center;
+      padding-top: 36px;
+      margin-left: -32px;
+     
+  }
+  &__nav {
+      margin-top: 10px;
+      margin-left: -34px;
+      &-items {
+          padding-left: 0;
+        li {
+            list-style: none;  
+            margin-top: 42px;
+            a {
+                text-decoration: none;
+                font-size: 15px;
+                line-height: 18px;
+                letter-spacing: 0.09em;
+                color: rgba(255, 245, 245, 0.65);
+                text-align: center;
+            }     
+        }
+        &-descr {
+            text-align: left;
+            margin-top: 16px;
+        }
+      }
+  }
+}

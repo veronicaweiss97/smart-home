@@ -1,0 +1,32 @@
+.subheader {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    padding-top: 36px;
+    align-items: center;
+    &-form {
+        width: 175px;
+        height: 34px;
+        box-sizing: border-box;
+        color: #C2C2C2;
+        &-input {
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 21px;
+            padding-right: 21px;
+            color: #C2C2C2;
+            border: 5px solid;
+            border-radius: 20px;
+        }
+    }
+    &-icons {
+        display: flex;
+        width: 160px;
+        margin-right: 87px;
+        margin-left: 54px;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+}

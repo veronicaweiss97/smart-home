@@ -1,0 +1,190 @@
+.container {
+    width: 100%;
+    background-color: white;
+    margin-left: -40px;
+    border: 2px solid white;
+    border-radius: 55px 0 0 55px;
+}
+.members {
+    width: 93%;
+    display: none;
+    &__title {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 58px;
+        color: #1D2343;
+        letter-spacing: 0.45em;
+        padding-left: 180px;
+    }
+    &__cards {
+        display: grid;
+        padding-left: 180px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 50px;
+        &-item {
+            text-align: center;
+            align-items: center;
+            display: grid;
+            width: 288px;
+            height: 341px;
+            border-radius: 43px;
+            background-color: #EE777F;
+            box-shadow: 0px 3px 35px 27px rgba(238, 119, 127, 0.36);
+            &-upper {
+                height: 100%;
+                text-align: center;
+                align-items: center;
+                .face  {
+                    margin-top: 50px;
+                    width: 87px;
+                    color: white;
+                }
+                &-name {
+                    margin-top: 30px;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    line-height: 29px;
+                    letter-spacing: 0.09em;
+                    color: #FFF5F5;
+                }
+                &-position {  
+                    margin-top: 20px;                                
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 18px;
+                    letter-spacing: 0.09em;
+                    color: rgba(255, 255, 255, 0.86);
+                }
+                &-green {
+                    height: 100%;
+                    background-color: #65BDC0;
+                    border-radius: 43px 43px 0 0 ;
+                    .talk {
+                        position: absolute;
+                        top: 240px;
+                        left: 1191px;
+                    }
+                    .face  {
+                        margin-top: 50px;
+                        width: 87px;
+                    }
+                    &-name {
+                        margin-top: 30px;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 24px;
+                        line-height: 29px;
+                        letter-spacing: 0.09em;
+                        color: #FFF5F5;
+                    }
+                    &-position {  
+                        margin-top: 20px;                                
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 15px;
+                        line-height: 18px;
+                        letter-spacing: 0.09em;
+                        color: rgba(255, 255, 255, 0.86);
+                    }
+                }
+                &-blue {
+                    height: 100%;
+                    background-color: #1D2343;
+                    border-radius: 43px 43px 0 0 ;
+                    .talk {
+                        position: absolute;
+                        top: 240px;
+                        left: 1808px;
+                    }
+                    .face  {
+                        margin-top: 50px;
+                        width: 87px;
+                    }
+                    &-name {
+                        margin-top: 30px;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 24px;
+                        line-height: 29px;
+                        letter-spacing: 0.09em;
+                        color: #FFF5F5;
+                    }
+                    &-position {  
+                        margin-top: 20px;                                
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 15px;
+                        line-height: 18px;
+                        letter-spacing: 0.09em;
+                        color: rgba(255, 255, 255, 0.86);
+                    }
+                }
+            }
+            &-down {
+                height: 100%;
+                background-color: #FFF5F5;
+                border: 1px solid #FFF5F5;
+                border-radius:  0 0 43px 43px;
+                &-status {
+                    margin-top: 10px;
+                    margin-left: 58px;
+                    text-align: left;
+                    font-size: 16px;
+                    line-height: 19px;
+                    letter-spacing: 0.09em;
+                    color: rgba(29, 35, 67, 0.75);
+                }
+                &-location {
+                    margin-top: 5px;
+                    margin-left: 58px;
+                    text-align-last: left;
+                    font-size: 16px;
+                    line-height: 19px;
+                    letter-spacing: 0.09em;
+                    color: rgba(29, 35, 67, 0.75);
+                }
+            }
+            &-last {
+                display: flex;
+                text-align: center;
+                align-items: center;
+                background-color: #ffffff;
+                width: 288px;
+                height: 341px;
+                border: 5px dashed #E0E0E0;
+                border-radius: 43px;
+                .circle {
+                    margin: 0 auto;
+                    width: 94px;
+                    height: 94px;
+                    border: 5px solid #E0E0E0;
+                    border-radius: 50%;
+                    background-color: transparent;
+                    justify-content: center;
+                    left: 1000px;
+                    .line {
+                        position: relative;
+                        width: 59px;
+                        height: 7px;
+                        background-color: #E0E0E0;
+                        text-align: center; 
+                        top: 44px;
+                        left: 17px;
+                    }
+                    .second {
+                        width: 7px;
+                        height: 59px;
+                        background-color: #E0E0E0;
+                        position: absolute;
+                        top: 766px;
+                        left: 477px;
+                    }
+                }
+            }    
+        }
+    }
+}
