@@ -11,8 +11,8 @@
     &__content {
         width: 80%;
         &-upper {
-            padding-left: 180px;
-            width: 100%;
+            padding-left: 6%;
+            width: 93%;
             display: flex;
             
             &-time {
@@ -21,7 +21,7 @@
                 border: 1px solid transparent;
                 box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.14);
                 border-radius: 30px;
-                margin-right: 160px;
+                margin-right: 62px;
                 .headerwelcome {
                     margin-top: 13px;
                     margin-left: 27px;
@@ -45,7 +45,7 @@
                 border: 1px solid transparent;
                 box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.14);
                 border-radius: 30px;
-                margin-right: 160px;
+                margin-right: 62px;
                 .headerwelcome {
                     margin-top: 13px;
                     margin-left: 27px;
@@ -109,24 +109,25 @@
             }
         }
         &-header {
-            margin-top: 100px;
+            margin-top: 35px;
             font-size: 42px;
             line-height: 29px;
             letter-spacing: 0.09em;
             color: rgba(29, 35, 67, 0.75);
-            margin-left: 180px;
+            margin-left: 6%;
         }
         &-down {
             display: flex;
-            margin-left: 180px;
-            margin-top: 100px;
+            margin-left: 6%;
+            margin-top: 35px;
             &-light {
                 width: 282px;
-                height: 331px;
+                height: 323px;
                 border: 1px solid transparent;
                 box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.14);
                 border-radius: 30px;
-                margin-right: 160px;
+                margin-right: 77px;
+
                 .headerwelcome {
                     margin-top: 15px;
                     margin-left: 27px;
@@ -161,11 +162,11 @@
             }
             &-air {
                 width: 282px;
-                height: 331px;
+                height: 323px;
                 border: 1px solid transparent;
                 box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.14);
                 border-radius: 30px;
-                margin-right: 160px;
+                margin-right: 77px;
                 .headerwelcome {
                     margin-top: 15px;
                     margin-left: 27px;
@@ -201,7 +202,7 @@
             }
             &-temperature {
                 width: 184px;
-                height: 331px;
+                height: 323px;
                 border: 1px solid transparent;
                 box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.14);
                 border-radius: 30px;
@@ -256,8 +257,8 @@
             }
             &-shortcuts {
                 position: absolute;
-                top: 454px;
-                left: 1585px;
+                top: 109px;
+                left: 1204px;
                 .headerwelcome {
                     margin-left: 27px;
                     font-size: 18px;
@@ -270,7 +271,7 @@
                     justify-content: center;
                     align-items: center;
                     width: 140px;
-                    height: 74px;
+                    height: 140px;
                     background-color: $second-color;
                     border: 1px solid transparent;
                     border-radius: 18px;
@@ -289,7 +290,7 @@
                     justify-content: center;
                     align-items: center;
                     width: 140px;
-                    height: 74px;
+                    height: 140px;
                     background-color: $main-color;
                     border: 1px solid transparent;
                     border-radius: 18px;
@@ -307,7 +308,7 @@
                     justify-content: center;
                     align-items: center;
                     width: 140px;
-                    height: 74px;
+                    height: 140px;
                     background-color: $third-color;
                     border: 1px solid transparent;
                     border-radius: 18px;

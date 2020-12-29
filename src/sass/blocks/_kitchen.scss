@@ -12,8 +12,8 @@
         display: flex;
         width: 90%;
         &-items {
-            padding-left: 180px;
-            width:53%;
+            padding-left: 6%;
+            width: 81%;
             &-first {
                 display: flex;
                 justify-content: space-between;
@@ -25,7 +25,7 @@
                     box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.14);
                     border-radius: 30px;
                     width: 219px;
-                    height: 204px;
+                    height: 188px;
                     .boxheader {
                         font-size: 15px;
                         line-height: 18px;
@@ -105,7 +105,8 @@
                     line-height: 29px;
                     letter-spacing: 0.09em;
                     color: rgba(29, 35, 67, 0.75);
-                    margin-top: 80px;
+                    margin-top: 13px;
+                    margin-bottom: 13px;
                 }
                 .kitchendevices {
                     display: flex;
@@ -126,7 +127,7 @@
                         align-items: center;
                         flex-wrap: wrap;
                         margin-right: 70px;
-                        margin-top: 30px;
+                        
                         .icondescr {
                             width: 100%;
                             font-size: 19px;
@@ -146,7 +147,7 @@
                         background: $main-color;
                         border-radius: 20px;
                         margin-right: 70px;
-                        margin-top: 30px;
+                        
                         .icondescr {
                             width: 100%;
                             font-size: 19px;
@@ -166,7 +167,7 @@
                         background: $third-color;
                         border-radius: 20px;
                         margin-right: 70px;
-                        margin-top: 30px;
+                       
                         .icondescr {
                             width: 100%;
                             font-size: 19px;
@@ -186,7 +187,7 @@
                         background: #EE777F;
                         border-radius: 20px;
                         margin-right: 70px;
-                        margin-top: 30px;
+                        
                         .icondescr {
                             width: 100%;
                             font-size: 19px;
@@ -206,7 +207,7 @@
                         background: $main-color;
                         border-radius: 20px;
                         margin-right: 70px;
-                        margin-top: 30px;
+                        margin-top: 10px;
                         .icondescr {
                             width: 100%;
                             font-size: 19px;
@@ -226,7 +227,7 @@
                         background: $third-color;
                         border-radius: 20px;
                         margin-right: 70px;
-                        margin-top: 30px;
+                        margin-top: 10px;
                         .icondescr {
                             width: 100%;
                             font-size: 19px;
@@ -246,7 +247,7 @@
                         background: #ee777f;
                         border-radius: 20px;
                         margin-right: 70px;
-                        margin-top: 30px;
+                        margin-top: 10px;
                         .icondescr {
                             width: 100%;
                             font-size: 19px;
@@ -266,7 +267,7 @@
                         background: $main-color;
                         border-radius: 20px;
                         margin-right: 70px;
-                        margin-top: 30px;
+                        margin-top: 10px;
                         .icondescr {
                             width: 100%;
                             font-size: 19px;
@@ -282,12 +283,12 @@
         }
         &-side {
             width: 30%;
-            margin-left: 122px;
+            
             display: flex;
             flex-direction: column;
             position: absolute;
-            left: 1328px;
-            top: 100px;
+            left: 1179px;
+            top: 142px;
             &-item {
                 display: flex;
                 justify-content: center;
@@ -296,20 +297,20 @@
                 border: 1px solid transparent;
                 box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.14);
                 border-radius: 30px;
-                width: 219px;
-                height: 204px;
-                margin-bottom: 29px;
+                width: 150px;
+                height: 123px;
+                margin-bottom: 10px;
                 text-align: center;
                 .photo__descr {
                     width: 100%;
-                    font-size: 19px;
+                    font-size: 15px;
                     line-height: 23px;
                     text-align: center;
                     letter-spacing: 0.09em;
                     color: #A3A3A3;
                 }
                 .photo {
-                    margin-top: 30px;
+                    margin-top: 15px;
                 }
             }
         }
