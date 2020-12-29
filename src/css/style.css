@@ -84,24 +84,26 @@ header {
 }
 
 .members__title {
+  margin: 0;
+  margin-bottom: 35px;
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
   line-height: 58px;
   color: #1D2343;
   letter-spacing: 0.45em;
-  padding-left: 180px;
+  padding-left: 6%;
 }
 
 .members__cards {
   display: -ms-grid;
   display: grid;
-  padding-left: 180px;
+  padding-left: 6%;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   -ms-grid-rows: (1fr)[2];
       grid-template-rows: repeat(2, 1fr);
-  gap: 50px;
+  gap: 30px;
 }
 
 .members__cards-item {
@@ -109,10 +111,9 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  display: -ms-grid;
-  display: grid;
-  width: 288px;
-  height: 341px;
+  /* display: grid; */
+  width: 261px;
+  height: 242px;
   border-radius: 43px;
   background-color: #EE777F;
   -webkit-box-shadow: 0px 3px 35px 27px rgba(238, 119, 127, 0.36);
@@ -120,21 +121,29 @@ header {
 }
 
 .members__cards-item-upper {
-  height: 100%;
-  text-align: center;
+  height: 64%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .members__cards-item-upper .face {
-  margin-top: 50px;
-  width: 87px;
+  margin-top: 20px;
+  width: 50px;
   color: white;
 }
 
 .members__cards-item-upper-name {
-  margin-top: 30px;
+  width: 100%;
+  margin-top: 1px;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -144,7 +153,8 @@ header {
 }
 
 .members__cards-item-upper-position {
-  margin-top: 20px;
+  width: 100%;
+  margin-top: 1px;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -154,34 +164,48 @@ header {
 }
 
 .members__cards-item-upper-green {
-  height: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 64%;
   background-color: #65BDC0;
   border-radius: 43px 43px 0 0;
 }
 
 .members__cards-item-upper-green .talk {
   position: absolute;
-  top: 240px;
-  left: 1191px;
+  top: 14px;
+  left: 215px;
 }
 
 .members__cards-item-upper-green .face {
-  margin-top: 50px;
-  width: 87px;
+  margin-top: 20px;
+  width: 50px;
 }
 
 .members__cards-item-upper-green-name {
-  margin-top: 30px;
+  margin-top: 1px;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 29px;
   letter-spacing: 0.09em;
   color: #FFF5F5;
+  width: 100%;
 }
 
 .members__cards-item-upper-green-position {
-  margin-top: 20px;
+  width: 100%;
+  margin-top: 1px;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -191,51 +215,65 @@ header {
 }
 
 .members__cards-item-upper-blue {
-  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  height: 64%;
   background-color: #1D2343;
   border-radius: 43px 43px 0 0;
 }
 
 .members__cards-item-upper-blue .talk {
   position: absolute;
-  top: 240px;
-  left: 1808px;
+  top: 14px;
+  left: 215px;
 }
 
 .members__cards-item-upper-blue .face {
-  margin-top: 50px;
-  width: 87px;
+  margin-top: 20px;
+  width: 50px;
 }
 
 .members__cards-item-upper-blue-name {
-  margin-top: 30px;
+  margin-top: 1px;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 29px;
   letter-spacing: 0.09em;
   color: #FFF5F5;
+  width: 100%;
 }
 
 .members__cards-item-upper-blue-position {
-  margin-top: 20px;
+  margin-top: 1px;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 18px;
   letter-spacing: 0.09em;
   color: rgba(255, 255, 255, 0.86);
+  width: 100%;
 }
 
 .members__cards-item-down {
-  height: 100%;
+  height: 35%;
   background-color: #FFF5F5;
   border: 1px solid #FFF5F5;
   border-radius: 0 0 43px 43px;
 }
 
 .members__cards-item-down-status {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 58px;
   text-align: left;
   font-size: 16px;
@@ -255,6 +293,7 @@ header {
 }
 
 .members__cards-item-last {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -263,13 +302,14 @@ header {
       -ms-flex-align: center;
           align-items: center;
   background-color: #ffffff;
-  width: 288px;
-  height: 341px;
+  width: 244px;
+  height: 242px;
   border: 5px dashed #E0E0E0;
   border-radius: 43px;
 }
 
 .members__cards-item-last .circle {
+  position: relative;
   margin: 0 auto;
   width: 94px;
   height: 94px;
@@ -279,7 +319,7 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  left: 1000px;
+  left: 0px;
 }
 
 .members__cards-item-last .circle .line {
@@ -288,8 +328,8 @@ header {
   height: 7px;
   background-color: #E0E0E0;
   text-align: center;
-  top: 44px;
-  left: 17px;
+  top: 41px;
+  left: 16px;
 }
 
 .members__cards-item-last .circle .second {
@@ -297,8 +337,8 @@ header {
   height: 59px;
   background-color: #E0E0E0;
   position: absolute;
-  top: 766px;
-  left: 477px;
+  top: 15px;
+  left: 43px;
 }
 
 .statistics {
