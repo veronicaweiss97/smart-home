@@ -31,14 +31,17 @@ header {
                 font-size: 15px;
                 line-height: 18px;
                 letter-spacing: 0.09em;
-                color: rgba(255, 245, 245, 0.65);
+                color: #fff;
+                opacity: 0.6;
                 text-align: center;
             }     
         }
         &-descr {
             text-align: center;
             margin-top: 0;
+            color: #fff;
+            opacity: 0.6;
         }
-      }
+      } 
   }
 }

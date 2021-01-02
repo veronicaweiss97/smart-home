@@ -30,7 +30,7 @@
     &__icons {
         display: grid;
         padding-left: 6%;
-        grid-template-columns: repeat(2, 510px);
+        grid-template-columns: repeat(2, 409px);
         grid-template-rows: repeat(2, 270px);
         .electricity {
             display: grid;
@@ -201,7 +201,7 @@
       
     }
     &_block {
-        width: 337px;
+        width: 269px;
         height: 49%;
         padding: 15px;
         background-color: #FFF5F5;
